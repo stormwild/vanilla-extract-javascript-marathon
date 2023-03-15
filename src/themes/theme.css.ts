@@ -8,6 +8,9 @@ const emptyTheme = {
     primary200: '#000000',
     secondary100: '#000000',
     secondary200: '#000000',
+    tertiary100: '#000000',
+    tertiary200: '#000000',
+    neutral100: '#000000',
   },
 };
 
@@ -21,5 +24,8 @@ export const theme = createGlobalTheme(':root', vars, {
     primary200: 'rgb(60, 70, 230)',
     secondary100: 'rgb(240, 70, 100)',
     secondary200: 'rgb(230, 70, 60)',
+    tertiary100: 'rgb(70, 240, 100)',
+    tertiary200: 'rgb(70, 230, 60)',
+    neutral100: 'rgb(200, 200, 200)',
   },
 });

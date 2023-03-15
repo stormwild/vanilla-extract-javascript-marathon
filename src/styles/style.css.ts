@@ -13,3 +13,12 @@ globalStyle('body', {
   fontFamily: 'sans-serif',
   padding: '1rem;',
 });
+
+globalStyle('#root > .container', {
+  backgroundColor: vars.colors.neutral100,
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'space-around',
+  alignItems: 'center',
+  height: 'calc(100vh - 2rem)',
+});

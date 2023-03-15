@@ -39,4 +39,13 @@ export const buttonStyle = styleVariants({
       },
     },
   ],
+  green: [
+    baseButtonStyle,
+    {
+      backgroundColor: vars.colors.tertiary100,
+      ':hover': {
+        backgroundColor: vars.colors.tertiary200,
+      },
+    },
+  ],
 });
