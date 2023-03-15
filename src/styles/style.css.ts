@@ -21,4 +21,5 @@ globalStyle('#root > .container', {
   justifyContent: 'space-around',
   alignItems: 'center',
   height: 'calc(100vh - 2rem)',
+  overflow: 'auto',
 });

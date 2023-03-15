@@ -6,7 +6,7 @@ import { vars } from '../../themes/theme.css';
 const baseButtonStyle = style([
   sprinkles({
     borderRadius: { mobile: 'small', desktop: 'large' },
-    padding: { mobile: 'medium', desktop: 'xxlarge' },
+    padding: { mobile: 'medium', desktop: 'large' },
   }),
   {
     color: 'white',

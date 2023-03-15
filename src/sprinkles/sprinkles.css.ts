@@ -22,11 +22,11 @@ const colorProperties = defineProperties({
 });
 
 const space = {
-  small: '4px',
-  medium: '8px',
-  large: '16px',
-  xlarge: '32px',
-  xxlarge: '64px',
+  small: 'clamp(0.25rem, .5vw, 0.5rem)',
+  medium: 'clamp(0.5rem, 1vw, 1rem)',
+  large: 'clamp(1rem, 1.5vw, 1.5rem)',
+  xlarge: 'clamp(1.5rem, 2vw, 2rem)',
+  xxlarge: 'clamp(2rem, 3vw, 3rem)',
 };
 
 const spaceProperties = defineProperties({
