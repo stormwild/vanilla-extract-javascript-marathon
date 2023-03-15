@@ -36,7 +36,7 @@ export const App = () => {
             setCounts({ ...counts, specialCount: counts.specialCount + 1 })
           }
         >
-          {`Clickeds me ${counts.specialCount} times.`}
+          {`Clicked me ${counts.specialCount} times.`}
         </SpecialButton>
       </div>
     </div>
